@@ -16,6 +16,11 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+function click ()
+{
+    alert("HOLA");
+}
 var app = {
     // Application Constructor
     initialize: function() {
