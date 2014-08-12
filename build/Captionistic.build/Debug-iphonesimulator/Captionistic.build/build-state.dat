@@ -1,0 +1,608 @@
+TCaptionistic
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/envato/Desktop/captionistic/build/Captionistic.app/Info.plist Captionistic/Captionistic-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www build/Captionistic.app/www
+cCpResource Captionistic/Resources/icons/icon-72.png build/Captionistic.app/icon-72.png
+cCpResource Captionistic/config.xml build/Captionistic.app/config.xml
+cCpResource Captionistic/Resources/icons/icon.png build/Captionistic.app/icon.png
+cCpResource Captionistic/Resources/icons/icon@2x.png build/Captionistic.app/icon@2x.png
+cCpResource Captionistic/Resources/Capture.bundle build/Captionistic.app/Capture.bundle
+cCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/en.lproj/Localizable.strings Captionistic/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/es.lproj/Localizable.strings Captionistic/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib
+cCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/de.lproj/Localizable.strings Captionistic/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/se.lproj/Localizable.strings Captionistic/Resources/se.lproj/Localizable.strings
+cCpResource Captionistic/Resources/splash/Default-Landscape@2x~ipad.png build/Captionistic.app/Default-Landscape@2x~ipad.png
+cCpResource Captionistic/Resources/splash/Default-Landscape~ipad.png build/Captionistic.app/Default-Landscape~ipad.png
+cCpResource Captionistic/Resources/splash/Default-Portrait@2x~ipad.png build/Captionistic.app/Default-Portrait@2x~ipad.png
+cCpResource Captionistic/Resources/splash/Default-Portrait~ipad.png build/Captionistic.app/Default-Portrait~ipad.png
+cCpResource Captionistic/Resources/splash/Default@2x~iphone.png build/Captionistic.app/Default@2x~iphone.png
+cCpResource Captionistic/Resources/splash/Default~iphone.png build/Captionistic.app/Default~iphone.png
+cCpResource Captionistic/Resources/splash/Default-568h@2x~iphone.png build/Captionistic.app/Default-568h@2x~iphone.png
+cProcessPCH /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth Captionistic/Captionistic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o /Users/envato/Desktop/captionistic/Captionistic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o /Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic normal i386
+cGenerateDSYMFile /Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic
+cTouch /Users/envato/Desktop/captionistic/build/Captionistic.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c000000005102E2D30000000000000110
+t1359143635
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005107752E00000000001EB540
+t1359443246
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005107752700000000000C1030
+t1359443239
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005107752A0000000000193640
+t1359443242
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005107752D00000000003D4DF0
+t1359443245
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005107752F0000000000215DB0
+t1359443247
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510775310000000000228FE0
+t1359443249
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051077532000000000009C590
+t1359443250
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c00000000510775340000000000085620
+t1359443252
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005107753800000000003DDFA0
+t1359443256
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005107754000000000002DBA50
+t1359443264
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005107754200000000000BCC20
+t1359443266
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005107754500000000001D5750
+t1359443269
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051077548000000000006CC50
+t1359443272
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005107754B0000000000AB6230
+t1359443275
+s11231792
+
+N/Users/envato/Desktop/captionistic/Captionistic/Captionistic-Prefix.pch
+c00000000511EE22E00000000000003C9
+t1360978478
+s969
+
+N/Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m
+c00000000511EE22E0000000000001086
+t1360978478
+s4230
+
+N/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m
+c00000000511EE22E000000000000126D
+t1360978478
+s4717
+
+N/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib
+c00000000511EE22D0000000000001759
+t1360978477
+s5977
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/Capture.bundle
+c00000000511EE22D000000000000030E
+t1360978477
+s782
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/de.lproj/Localizable.strings
+c00000000511EE22D0000000000000485
+t1360978477
+s1157
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/en.lproj/Localizable.strings
+c00000000511EE22D0000000000000470
+t1360978477
+s1136
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/es.lproj/Localizable.strings
+c00000000511EE22D000000000000047D
+t1360978477
+s1149
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon-72.png
+c00000000511EE22D0000000000001350
+t1360978477
+s4944
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon.png
+c00000000511EE22D0000000000000F3E
+t1360978477
+s3902
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon@2x.png
+c00000000511EE22D0000000000001EBD
+t1360978477
+s7869
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/se.lproj/Localizable.strings
+c00000000511EE22D0000000000000471
+t1360978477
+s1137
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-568h@2x~iphone.png
+c00000000511EE22D00000000000074F8
+t1360978477
+s29944
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Landscape@2x~ipad.png
+c00000000511EE22D0000000000012735
+t1360978477
+s75573
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Landscape~ipad.png
+c00000000511EE22D000000000000817B
+t1360978477
+s33147
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Portrait@2x~ipad.png
+c00000000511EE22D0000000000012171
+t1360978477
+s74097
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Portrait~ipad.png
+c00000000511EE22D0000000000007F9A
+t1360978477
+s32666
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default@2x~iphone.png
+c00000000511EE22D0000000000007323
+t1360978477
+s29475
+
+N/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default~iphone.png
+c00000000511EE22D000000000000289A
+t1360978477
+s10394
+
+N/Users/envato/Desktop/captionistic/Captionistic/config.xml
+c00000000511EE22D0000000000000A9E
+t1360978477
+s2718
+
+N/Users/envato/Desktop/captionistic/Captionistic/main.m
+c00000000511EE22E000000000000045E
+t1360978478
+s1118
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Capture.bundle
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Default~iphone.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/Info.plist
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/MainViewController.nib
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/PkgInfo
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/config.xml
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/icon-72.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/icon.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/icon@2x.png
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.app/www
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/Captionistic.LinkFileList
+c00000000513106B30000000000000195
+t1362167475
+s405
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh
+c00000000513106B30000000000000027
+t1362167475
+s39
+
+N/Users/envato/Desktop/captionistic/build/libCordova.a
+c00000000513106B30000000000325490
+t1362167475
+s3298448
+
+N/Users/envato/Desktop/captionistic/www
+c00000000511EE5E00000000000000154
+t1360979424
+s340
+
+N/var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth
+t2
+s0
+
+NCaptionistic/Captionistic-Info.plist
+c00000000511EE22E00000000000009CC
+t1360978478
+s2508
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescff3e7333ee1b641^4702e9333ee1b641^---0#1#0#--18"Check dependencies36"ED48DE35-76EF-4A42-959A-417B29F3745C-
+
+CCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o /Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383860291.020305
+e383860291.110247
+r1
+xCompileC
+xbuild/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o
+x/Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m8d5e05433ee1b641^5c381c433ee1b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m0000000000000000^3532"CompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o Captionistic/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/envato/Desktop/captionistic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-generated-files.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-own-target-headers.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-all-target-headers.hmap -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-project-headers.hmap -I/Users/envato/Desktop/captionistic/build/include -I/Users/envato/Desktop/captionistic/build/usr/local/lib/include -I/Users/envato/Desktop/captionistic/build/UninstalledProducts/include -I/Users/envato/Desktop/captionistic/build -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources/i386 -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources -F/Users/envato/Desktop/captionistic/build -include /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch -MMD -MT dependencies -MF /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.dia -c /Users/envato/Desktop/captionistic/Captionistic/Classes/AppDelegate.m -o /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/AppDelegate.o36"76F759D9-D2D3-46C6-B5A7-DDD971999583-
+
+CCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383860291.020284
+e383860291.100572
+r1
+xCompileC
+xbuild/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o
+x/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.mb56c05433ee1b641^c6c119433ee1b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m0000000000000000^3574"CompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o Captionistic/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/envato/Desktop/captionistic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-generated-files.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-own-target-headers.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-all-target-headers.hmap -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-project-headers.hmap -I/Users/envato/Desktop/captionistic/build/include -I/Users/envato/Desktop/captionistic/build/usr/local/lib/include -I/Users/envato/Desktop/captionistic/build/UninstalledProducts/include -I/Users/envato/Desktop/captionistic/build -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources/i386 -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources -F/Users/envato/Desktop/captionistic/build -include /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch -MMD -MT dependencies -MF /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.dia -c /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.m -o /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/MainViewController.o36"A38B117A-191C-428A-BB63-DCC511034ABD-
+
+CCompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o /Users/envato/Desktop/captionistic/Captionistic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383860291.020241
+e383860291.061966
+r1
+xCompileC
+xbuild/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o
+x/Users/envato/Desktop/captionistic/Captionistic/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/envato/Desktop/captionistic/Captionistic/main.mdb6b05433ee1b641^38dc0f433ee1b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/envato/Desktop/captionistic/Captionistic/main.m0000000000000000^3474"CompileC build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o Captionistic/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/envato/Desktop/captionistic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-generated-files.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-own-target-headers.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-all-target-headers.hmap -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-project-headers.hmap -I/Users/envato/Desktop/captionistic/build/include -I/Users/envato/Desktop/captionistic/build/usr/local/lib/include -I/Users/envato/Desktop/captionistic/build/UninstalledProducts/include -I/Users/envato/Desktop/captionistic/build -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources/i386 -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources -F/Users/envato/Desktop/captionistic/build -include /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch -MMD -MT dependencies -MF /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.dia -c /Users/envato/Desktop/captionistic/Captionistic/main.m -o /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/main.o36"4622AFC0-607C-4572-B0D4-6561803F939A-
+
+CCompileXIB /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib
+s383860276.283548
+e383860290.670272
+r1
+xCompileXIB
+x/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib
+o2013-03-01 11:51:29.111 Interface Builder Cocoa Touch Tool[842:f07] CFPreferences: user home directory at file://localhost/Users/envato/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compiling /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib20b648343ee1b641^55a3ab423ee1b641^-237"2013-03-01 11:51:29.111 Interface Builder Cocoa Touch Tool[842:f07] CFPreferences: user home directory at file://localhost/Users/envato/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib0000000000000000^1048"CompileXIB Captionistic/Classes/MainViewController.xib    cd /Users/envato/Desktop/captionistic    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/envato/Desktop/captionistic/build/Captionistic.app/MainViewController.nib /Users/envato/Desktop/captionistic/Captionistic/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"2CBB87D6-4732-435B-AD73-B84AD4B20382-
+
+CCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/de.lproj/Localizable.strings Captionistic/Resources/de.lproj/Localizable.strings
+s383860276.340074
+e383860276.680606
+r1
+xCopyStringsFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/de.lproj/Localizable.strings
+xCaptionistic/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Captionistic/Resources/de.lproj/Localizable.strings7b2e57343ee1b641^ef3bae343ee1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Resources/de.lproj/Localizable.strings0000000000000000^721"CopyStringsFile build/Captionistic.app/de.lproj/Localizable.strings Captionistic/Resources/de.lproj/Localizable.strings    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/envato/Desktop/captionistic/build/Captionistic.app/de.lproj -- Captionistic/Resources/de.lproj/Localizable.strings36"01324C65-C17C-4E9B-8B87-A1AD239AF354-
+
+CCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/en.lproj/Localizable.strings Captionistic/Resources/en.lproj/Localizable.strings
+s383860276.102488
+e383860276.282061
+r1
+xCopyStringsFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/en.lproj/Localizable.strings
+xCaptionistic/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Captionistic/Resources/en.lproj/Localizable.stringsda571a343ee1b641^193848343ee1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Resources/en.lproj/Localizable.strings0000000000000000^721"CopyStringsFile build/Captionistic.app/en.lproj/Localizable.strings Captionistic/Resources/en.lproj/Localizable.strings    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/envato/Desktop/captionistic/build/Captionistic.app/en.lproj -- Captionistic/Resources/en.lproj/Localizable.strings36"229E5534-833D-43A2-AFEE-50890D9B7450-
+
+CCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/es.lproj/Localizable.strings Captionistic/Resources/es.lproj/Localizable.strings
+s383860276.102507
+e383860276.338666
+r1
+xCopyStringsFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/es.lproj/Localizable.strings
+xCaptionistic/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Captionistic/Resources/es.lproj/Localizable.strings3a591a343ee1b641^abb356343ee1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Resources/es.lproj/Localizable.strings0000000000000000^721"CopyStringsFile build/Captionistic.app/es.lproj/Localizable.strings Captionistic/Resources/es.lproj/Localizable.strings    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/envato/Desktop/captionistic/build/Captionistic.app/es.lproj -- Captionistic/Resources/es.lproj/Localizable.strings36"CDAC0AFF-04C2-4237-AEA6-1A5630AB25FB-
+
+CCopyStringsFile /Users/envato/Desktop/captionistic/build/Captionistic.app/se.lproj/Localizable.strings Captionistic/Resources/se.lproj/Localizable.strings
+s383860276.682375
+e383860276.779992
+r1
+xCopyStringsFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/se.lproj/Localizable.strings
+xCaptionistic/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy Captionistic/Resources/se.lproj/Localizable.strings17d9ae343ee1b641^47aec7343ee1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Resources/se.lproj/Localizable.strings0000000000000000^721"CopyStringsFile build/Captionistic.app/se.lproj/Localizable.strings Captionistic/Resources/se.lproj/Localizable.strings    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/envato/Desktop/captionistic/build/Captionistic.app/se.lproj -- Captionistic/Resources/se.lproj/Localizable.strings36"5733097A-A93E-4954-AE30-3501F6095631-
+
+CCpResource Captionistic/Resources/Capture.bundle build/Captionistic.app/Capture.bundle
+s383860276.102469
+e383860278.224508
+r1
+xCpResource
+xCaptionistic/Resources/Capture.bundle
+xbuild/Captionistic.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy build/Captionistic.app/Capture.bundle08591a343ee1b641^5b7939363ee1b641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Capture.bundle000000000080d041^719"CpResource Captionistic/Resources/Capture.bundle build/Captionistic.app/Capture.bundle    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/envato/Desktop/captionistic/Captionistic/Resources/Capture.bundle /Users/envato/Desktop/captionistic/build/Captionistic.app36"A4E914E8-CCC4-49D6-B71A-8C9AE2ED317D-
+
+CCpResource Captionistic/Resources/icons/icon-72.png build/Captionistic.app/icon-72.png
+s383860275.985794
+e383860276.101068
+r1
+xCpResource
+xCaptionistic/Resources/icons/icon-72.png
+xbuild/Captionistic.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Captionistic.app/icon-72.png5c72fc333ee1b641^abea19343ee1b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/icon-72.png000000000080d041^722"CpResource Captionistic/Resources/icons/icon-72.png build/Captionistic.app/icon-72.png    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon-72.png /Users/envato/Desktop/captionistic/build/Captionistic.app36"3CFF7CD7-8FBF-426C-9645-5984FF7B911D-
+
+CCpResource Captionistic/Resources/icons/icon.png build/Captionistic.app/icon.png
+s383860275.985989
+e383860276.101052
+r1
+xCpResource
+xCaptionistic/Resources/icons/icon.png
+xbuild/Captionistic.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy build/Captionistic.app/icon.png957cfc333ee1b641^a4e019343ee1b641^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/icon.png000000000080d041^713"CpResource Captionistic/Resources/icons/icon.png build/Captionistic.app/icon.png    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon.png /Users/envato/Desktop/captionistic/build/Captionistic.app36"E5FCDFC2-177B-42D3-8366-D3FDDA84E035-
+
+CCpResource Captionistic/Resources/icons/icon@2x.png build/Captionistic.app/icon@2x.png
+s383860276.089471
+e383860276.101098
+r1
+xCpResource
+xCaptionistic/Resources/icons/icon@2x.png
+xbuild/Captionistic.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/Captionistic.app/icon@2x.png190317343ee1b641^9aee19343ee1b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/icon@2x.png000000000080d041^728"CpResource "Captionistic/Resources/icons/icon@2x.png" "build/Captionistic.app/icon@2x.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/icons/icon@2x.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"ACEBB2E9-0BB3-405F-9765-DDCA2E74E9DA-
+
+CCpResource Captionistic/Resources/splash/Default-568h@2x~iphone.png build/Captionistic.app/Default-568h@2x~iphone.png
+s383860276.939656
+e383860277.012725
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default-568h@2x~iphone.png
+xbuild/Captionistic.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Captionistic.app/Default-568h@2x~iphone.pngd6a7f0343ee1b641^e14103353ee1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-568h@2x~iphone.png000000000080d041^775"CpResource "Captionistic/Resources/splash/Default-568h@2x~iphone.png" "build/Captionistic.app/Default-568h@2x~iphone.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-568h@2x~iphone.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"629864D5-B810-4051-A725-3482606A5BE1-
+
+CCpResource Captionistic/Resources/splash/Default-Landscape@2x~ipad.png build/Captionistic.app/Default-Landscape@2x~ipad.png
+s383860276.781483
+e383860276.859255
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/Captionistic.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Captionistic.app/Default-Landscape@2x~ipad.pnge737c8343ee1b641^16fbdb343ee1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Landscape@2x~ipad.png000000000080d041^784"CpResource "Captionistic/Resources/splash/Default-Landscape@2x~ipad.png" "build/Captionistic.app/Default-Landscape@2x~ipad.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Landscape@2x~ipad.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"252B26E3-A292-4F82-A6A5-20CE4EBFA3F8-
+
+CCpResource Captionistic/Resources/splash/Default-Landscape~ipad.png build/Captionistic.app/Default-Landscape~ipad.png
+s383860276.860860
+e383860276.864930
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default-Landscape~ipad.png
+xbuild/Captionistic.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Captionistic.app/Default-Landscape~ipad.png8883dc343ee1b641^2f6cdd343ee1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Landscape~ipad.png000000000080d041^775"CpResource "Captionistic/Resources/splash/Default-Landscape~ipad.png" "build/Captionistic.app/Default-Landscape~ipad.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Landscape~ipad.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"B9FAF17B-DC9A-4BC4-A0B0-C4DA61D7EFF5-
+
+CCpResource Captionistic/Resources/splash/Default-Portrait@2x~ipad.png build/Captionistic.app/Default-Portrait@2x~ipad.png
+s383860276.866494
+e383860276.869988
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/Captionistic.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Captionistic.app/Default-Portrait@2x~ipad.pngfaefdd343ee1b641^aab7de343ee1b641^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Portrait@2x~ipad.png000000000080d041^781"CpResource "Captionistic/Resources/splash/Default-Portrait@2x~ipad.png" "build/Captionistic.app/Default-Portrait@2x~ipad.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Portrait@2x~ipad.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"0FC7F74A-CCF8-4EAF-BC25-B681FC381BE0-
+
+CCpResource Captionistic/Resources/splash/Default-Portrait~ipad.png build/Captionistic.app/Default-Portrait~ipad.png
+s383860276.871559
+e383860276.921178
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default-Portrait~ipad.png
+xbuild/Captionistic.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Captionistic.app/Default-Portrait~ipad.pngfd4edf343ee1b641^fed1eb343ee1b641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default-Portrait~ipad.png000000000080d041^772"CpResource "Captionistic/Resources/splash/Default-Portrait~ipad.png" "build/Captionistic.app/Default-Portrait~ipad.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default-Portrait~ipad.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"322D3592-8AAB-4F00-99A3-F3FD40271D2C-
+
+CCpResource Captionistic/Resources/splash/Default@2x~iphone.png build/Captionistic.app/Default@2x~iphone.png
+s383860276.922593
+e383860276.928166
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default@2x~iphone.png
+xbuild/Captionistic.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy build/Captionistic.app/Default@2x~iphone.png0d52ec343ee1b641^1fa2ed343ee1b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default@2x~iphone.png000000000080d041^760"CpResource "Captionistic/Resources/splash/Default@2x~iphone.png" "build/Captionistic.app/Default@2x~iphone.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default@2x~iphone.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"22FEC858-DE0C-4434-8AE1-B5D25464F165-
+
+CCpResource Captionistic/Resources/splash/Default~iphone.png build/Captionistic.app/Default~iphone.png
+s383860276.929631
+e383860276.938275
+r1
+xCpResource
+xCaptionistic/Resources/splash/Default~iphone.png
+xbuild/Captionistic.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy build/Captionistic.app/Default~iphone.png9c14ee343ee1b641^3b34f0343ee1b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/Default~iphone.png000000000080d041^751"CpResource "Captionistic/Resources/splash/Default~iphone.png" "build/Captionistic.app/Default~iphone.png"    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/envato/Desktop/captionistic/Captionistic/Resources/splash/Default~iphone.png" /Users/envato/Desktop/captionistic/build/Captionistic.app36"08C8D0E0-FF36-4416-8084-F8CF069AA762-
+
+CCpResource Captionistic/config.xml build/Captionistic.app/config.xml
+s383860275.985799
+e383860276.088099
+r1
+xCpResource
+xCaptionistic/config.xml
+xbuild/Captionistic.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Copy build/Captionistic.app/config.xmlfb78fc333ee1b641^718e16343ee1b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/config.xml000000000080d041^687"CpResource Captionistic/config.xml build/Captionistic.app/config.xml    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/envato/Desktop/captionistic/Captionistic/config.xml /Users/envato/Desktop/captionistic/build/Captionistic.app36"6315F1E1-8EE9-4DAA-9E21-93C5D0B52195-
+
+CCpResource www build/Captionistic.app/www
+s383860275.985789
+e383860278.707559
+r1
+xCpResource
+xwww
+xbuild/Captionistic.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy build/Captionistic.app/wwwc571fc333ee1b641^2d23b5363ee1b641^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app/www000000000080d041^640"CpResource www build/Captionistic.app/www    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/envato/Desktop/captionistic/www /Users/envato/Desktop/captionistic/build/Captionistic.app36"FFEA583C-29A6-4D28-872B-5D2DF867E852-
+
+CGenerateDSYMFile /Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic
+s383860292.660836
+e383860292.833259
+r1
+xGenerateDSYMFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Generate /Users/envato/Desktop/captionistic/build/Captionistic.app.dSYMb459a9443ee1b641^f04fd5443ee1b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM000000000080d041^707"GenerateDSYMFile build/Captionistic.app.dSYM build/Captionistic.app/Captionistic    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic -o /Users/envato/Desktop/captionistic/build/Captionistic.app.dSYM36"8E666393-17ED-46A2-99EA-BBC588A0A810-
+
+CLd /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic normal i386
+s383860291.116787
+e383860292.653608
+r1
+xLd
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistice3fc1d433ee1b641^f051a7443ee1b641^---0#0#0#--1691"Ld build/Captionistic.app/Captionistic normal i386    cd /Users/envato/Desktop/captionistic    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/envato/Desktop/captionistic/build -F/Users/envato/Desktop/captionistic/build -filelist /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/Captionistic.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 /Users/envato/Desktop/captionistic/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/envato/Desktop/captionistic/build/Captionistic.app/Captionistic36"763689C2-DC87-4F0E-BD7C-7D91FD7C02A3-
+
+CPhaseScriptExecution "Touch www folder" /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh
+s383860275.927065
+e383860275.975833
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'22e3ed333ee1b641^3048fa333ee1b641^---0#0#0#--20231"PhaseScriptExecution "Touch www folder" build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh    cd /Users/envato/Desktop/captionistic    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER envato    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/envato/Desktop/captionistic/build    setenv BUILD_ROOT /Users/envato/Desktop/captionistic/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/envato/Desktop/captionistic/build    setenv CACHE_ROOT /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/envato/Desktop/captionistic/build/Captionistic.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/envato/Desktop/captionistic/build    setenv CONFIGURATION_TEMP_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH Captionistic.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH Captionistic.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Captionistic.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME Captionistic.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/envato/Desktop/captionistic/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH Captionistic.app/Executables    setenv EXECUTABLE_FOLDER_PATH Captionistic.app    setenv EXECUTABLE_NAME Captionistic    setenv EXECUTABLE_PATH Captionistic.app/Captionistic    setenv FILE_LIST /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH Captionistic.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/envato/Desktop/captionistic/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME Captionistic.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Captionistic/Captionistic-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/envato/Desktop/captionistic/build/include\" \"/Users/envato/Desktop/captionistic/build/usr/local/lib/include\" \"/Users/envato/Desktop/captionistic/build/UninstalledProducts/include\" \"/Users/envato/Desktop/captionistic/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Captionistic/Captionistic-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH Captionistic.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH Captionistic.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Captionistic.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER envato    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Captionistic.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH Captionistic.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/envato/Desktop/captionistic/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal/i386/Captionistic.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH Captionistic.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Objects-normal    setenv OBJROOT /Users/envato/Desktop/captionistic/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH Captionistic.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/PkgInfo    setenv PKGINFO_PATH Captionistic.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH Captionistic.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH Captionistic.app/PrivateHeaders    setenv PRODUCT_NAME Captionistic    setenv PRODUCT_SETTINGS_PATH /Users/envato/Desktop/captionistic/Captionistic/Captionistic-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Captionistic    setenv PROJECT_DERIVED_FILE_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/DerivedSources    setenv PROJECT_DIR /Users/envato/Desktop/captionistic    setenv PROJECT_FILE_PATH /Users/envato/Desktop/captionistic/Captionistic.xcodeproj    setenv PROJECT_NAME Captionistic    setenv PROJECT_TEMP_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build    setenv PROJECT_TEMP_ROOT /Users/envato/Desktop/captionistic/build    setenv PUBLIC_HEADERS_FOLDER_PATH Captionistic.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/envato/Desktop/captionistic/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH Captionistic.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/envato/Desktop/captionistic/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH Captionistic.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH Captionistic.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/envato/Desktop/captionistic    setenv SRCROOT /Users/envato/Desktop/captionistic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/envato/Desktop/captionistic/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME Captionistic    setenv TARGET_BUILD_DIR /Users/envato/Desktop/captionistic/build    setenv TARGET_NAME Captionistic    setenv TARGET_TEMP_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build    setenv TEMP_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build    setenv TEMP_FILES_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build    setenv TEMP_FILE_DIR /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build    setenv TEMP_ROOT /Users/envato/Desktop/captionistic/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH Captionistic.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER envato    setenv USER_APPS_DIR /Users/envato/Applications    setenv USER_LIBRARY_DIR /Users/envato/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH Captionistic.app/version.plist    setenv VERSION_INFO_BUILDER envato    setenv VERSION_INFO_FILE Captionistic_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Captionistic  PROJECT:Captionistic-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME Captionistic.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Script-304B58A110DAC018002A0835.sh36"6BEAC902-E8F0-4117-A843-150B27DF8F44-
+
+CProcessInfoPlistFile /Users/envato/Desktop/captionistic/build/Captionistic.app/Info.plist Captionistic/Captionistic-Info.plist
+s383860275.915800
+e383860275.918901
+r1
+xProcessInfoPlistFile
+x/Users/envato/Desktop/captionistic/build/Captionistic.app/Info.plist
+xCaptionistic/Captionistic-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Captionistic/Captionistic-Info.plistf583ea333ee1b641^b43ceb333ee1b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Captionistic-Info.plist0000000000000000^759"ProcessInfoPlistFile build/Captionistic.app/Info.plist Captionistic/Captionistic-Info.plist    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    builtin-infoPlistUtility Captionistic/Captionistic-Info.plist -genpkginfo /Users/envato/Desktop/captionistic/build/Captionistic.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/envato/Desktop/captionistic/build/Captionistic.app/Info.plist36"47651370-D0D0-40BD-934C-7CD27F149C78-
+
+CProcessPCH /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth Captionistic/Captionistic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s383860290.678354
+e383860291.013179
+r1
+xProcessPCH
+x/var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth
+xCaptionistic/Captionistic-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Captionistic/Captionistic-Prefix.pch26c3ad423ee1b641^a65e03433ee1b641^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/envato/Desktop/captionistic/Captionistic/Captionistic-Prefix.pch0000000000000000^3544"ProcessPCH /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth Captionistic/Captionistic-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/envato/Desktop/captionistic    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-generated-files.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-own-target-headers.hmap -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-all-target-headers.hmap -iquote /Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/Captionistic-project-headers.hmap -I/Users/envato/Desktop/captionistic/build/include -I/Users/envato/Desktop/captionistic/build/usr/local/lib/include -I/Users/envato/Desktop/captionistic/build/UninstalledProducts/include -I/Users/envato/Desktop/captionistic/build -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources/i386 -I/Users/envato/Desktop/captionistic/build/Captionistic.build/Debug-iphonesimulator/Captionistic.build/DerivedSources -F/Users/envato/Desktop/captionistic/build --serialize-diagnostics /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.dia -c /Users/envato/Desktop/captionistic/Captionistic/Captionistic-Prefix.pch -o /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/p2/d2pjbct55_j_89kjpcs75m440000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Captionistic-Prefix-fnaaqvkxghgqjfbsentymwithqpl/Captionistic-Prefix.pch.d36"3D06D287-0913-425E-AC78-B0702C87F612-
+
+CTouch /Users/envato/Desktop/captionistic/build/Captionistic.app
+s383860292.841627
+e383860292.846701
+r1
+xTouch
+x/Users/envato/Desktop/captionistic/build/Captionistic.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Touch /Users/envato/Desktop/captionistic/build/Captionistic.app4085d7443ee1b641^76c1d8443ee1b641^---0#0#0#--498"Touch build/Captionistic.app    cd /Users/envato/Desktop/captionistic    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/envato/Documents/android-sdk-macosx/platform-tools:/Users/envato/Documents/android-sdk-macosx/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local:/usr/local/git/bin"    /usr/bin/touch -c /Users/envato/Desktop/captionistic/build/Captionistic.app36"288D05BE-1BD7-4E2F-969B-4B184FA5506D-
+
